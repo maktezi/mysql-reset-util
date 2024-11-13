@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Full Reset MySQL root password on a Linux Ubunto/Debian.
+# Full Reset MySQL root password on a Linux Ubuntu/Debian.
 
 # Stop MySQL service
 echo "Stopping MySQL service..."
