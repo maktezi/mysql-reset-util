@@ -26,6 +26,10 @@ sudo apt install mysql-server -y
 echo "Running mysql_secure_installation..."
 sudo mysql_secure_installation
 
+# Install php-mysql
+echo "Running php-mysql installation..."
+sudo apt install php8.3-mysql -y
+
 # Log into MySQL and reset the root password
 echo "Resetting MySQL root password..."
 sudo mysql <<EOF
